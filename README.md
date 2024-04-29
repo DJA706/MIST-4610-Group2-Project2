@@ -39,10 +39,10 @@ Note: Row 30,684 has data containing the year as “2101.” However, we believe
 
   **Analysis:** For problem 2, the classification of meteorites we are looking at are classified as “L6”. By observing the total masses of L6 meteorites from 2000 through 2012, we can use the forecast ability in Tableau to predict the total mass of L6 meteorites in the next 20 years. 2000-2002 had large spikes in total mass measured by grams. In 2000, the total was 555,435 grams. 2001 decreased to 205572 grams. Although 2001 decreased from the previous year, it is still high compared to the future year and predictions. The next year is the highest total in the range 2000-2032 with an astounding 818328 grams. 2002 was the absolute maximum in total. Since then it has been hovering around 100000 grams with spikes. Our forecast starts after 2012 when it is predicted to decrease even more with spikes as total mass decreases even more.
 
-## Manipulations applied to the data set as part of the analysis:
+## Manipulation to Dataset
 The data set did not require any manipulations of the functions of the columns. However, some of the datatypes within the dataset needed to be adjusted. The “Year” datatype was converted from “Number” to “Date” datatype in order for our visualizations to be shown over time. Additionally, the “Reclat'' Geographical Role needed to be switched to “Latitude,” and the “Relong” Geographical Role needed to be switched to “Longitude.” 
 
-## Tableau Workbook:
+## Tableau Workbook
 https://github.com/mollybutkovich/MIST-4610-Group2-Project2/blob/8446d91457759c09633219025a0d3d96654c5f93/Group%20project%202.twbx
 
 
