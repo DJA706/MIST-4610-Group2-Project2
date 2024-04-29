@@ -10,14 +10,14 @@ Sp24_61608_Group 2
 5. Thomas Le (https://github.com/thomasle123)
 6. Alex Quinlan (https://github.com/AlexQuinlan12)
 
-## Describing your dataset and what data it contains: 
+## Data Description: 
 The dataset contains information on meteorite landings all over the world from the years 860 to 2012. The data set is sponsored by NASA and can be found here: https://catalog.data.gov/organization/about/nasa-gov.  The dataset contains 45,717 rows and 10 columns. Each column provides invaluable information regarding each meteorite’s name, ID,  nametype, reclass, fall, year, reclat, relong, and geolocation. Six of the ten columns of data were the string datatype. Those columns included fall, geographic location, name, nametype, reclass, and year. However, the year datatype was later adjusted as explained in the manipulations sections. One of the ten columns, Id,  was the Number (whole) datatype. The remaining three of the ten columns were the Number (decimal) datatype. Those columns include mass, reclat, and relong. However, the geographical roles of the reclat and relong columns were manipulated as described in the manipulations section. 
 
 The first column, name, describes the name of the meteorite. The second column, the ID, represents a unique identifier for each meteorite. The third column, nametype, decides whether the Name is a valid name for a meteorite. The fourth column, reclass, describes the group a meteorite is in based on its properties. The fifth column, mass (g), describes the mass of each meteorite measured in grams. The sixth column, fall, describes if the meteorite hit the ground or burnt up in the atmosphere and did not reach the ground. The seventh column, year, gives information regarding the year when the meteorite entered the Earth's atmosphere or hit Earth. The eighth column, reclat, gives the latitude of the meteorite landing, and the ninth column, reclong, gives the longitude of the meteorite landing. The tenth column combines the latitude and the longitude into one Geographic coordinate. 
 
 Note: Row 30,684 has data containing the year as “2101.” However, we believe that the data input is incorrect. According to Google, it should say “2010.” 
 
-## Two questions the team generated and why they are interesting and important:
+##**Question 1**:
 
 **Question 1:** What are the names and locations of the meteorites with a mass greater than 20,000,000? 
 
@@ -27,6 +27,8 @@ Note: Row 30,684 has data containing the year as “2101.” However, we believe
 ![Screenshot (161)](https://github.com/mollybutkovich/MIST-4610-Group2-Project2/assets/163011335/cfed7466-c080-4693-ab8b-735f72dd8ec0)
 
   **Analysis:** For problem 1, we tried to figure out where the big meteorites tend to land on Earth. To be classified as a big meteorite, it had to weigh more than 20 million grams in mass. By tracking the meteorites' longitude and latitude, we found that the bigger meteorites are sporadically spread across the globe, hitting every continent except for Europe and Antarctica. We can conclude two things from this visualization. First, big meteorites will rarely hit the earth as only 22 out of the 45716 meteorite strikes involved big meteorites. Second, it will be hard to predict where the next big meteorite strike will hit, but the majority of the big meteorites tend to hit North America and Africa as North America has had 3 meteorites and Africa has had 2 meteorites hit.
+
+  ##**Question 2**:
 
 **Question 2:** How has the mass of all L6 meteorites changed over time from 2000 and how is it projected to change over the next 20 years from 2012?
 
