@@ -10,7 +10,7 @@ Sp24_61608_Group 2
 5. Thomas Le (https://github.com/thomasle123)
 6. Alex Quinlan (https://github.com/AlexQuinlan12)
 
-## Data Description 
+## Description of Dataset
 The dataset contains information on meteorite landings all over the world from the years 860 to 2012. The data set is sponsored by NASA and can be found here: https://catalog.data.gov/organization/about/nasa-gov.  The dataset contains 45,717 rows and 10 columns. Each column provides invaluable information regarding each meteorite’s name, ID,  nametype, reclass, fall, year, reclat, relong, and geolocation. Six of the ten columns of data were the string datatype. Those columns included fall, geographic location, name, nametype, reclass, and year. However, the year datatype was later adjusted as explained in the manipulations sections. One of the ten columns, Id,  was the Number (whole) datatype. The remaining three of the ten columns were the Number (decimal) datatype. Those columns include mass, reclat, and relong. However, the geographical roles of the reclat and relong columns were manipulated as described in the manipulations section. 
 
 The first column, name, describes the name of the meteorite. The second column, the ID, represents a unique identifier for each meteorite. The third column, nametype, decides whether the Name is a valid name for a meteorite. The fourth column, reclass, describes the group a meteorite is in based on its properties. The fifth column, mass (g), describes the mass of each meteorite measured in grams. The sixth column, fall, describes if the meteorite hit the ground or burnt up in the atmosphere and did not reach the ground. The seventh column, year, gives information regarding the year when the meteorite entered the Earth's atmosphere or hit Earth. The eighth column, reclat, gives the latitude of the meteorite landing, and the ninth column, reclong, gives the longitude of the meteorite landing. The tenth column combines the latitude and the longitude into one Geographic coordinate. 
@@ -39,7 +39,7 @@ Note: Row 30,684 has data containing the year as “2101.” However, we believe
 
   **Analysis:** For problem 2, the classification of meteorites we are looking at are classified as “L6”. By observing the total masses of L6 meteorites from 2000 through 2012, we can use the forecast ability in Tableau to predict the total mass of L6 meteorites in the next 20 years. 2000-2002 had large spikes in total mass measured by grams. In 2000, the total was 555,435 grams. 2001 decreased to 205572 grams. Although 2001 decreased from the previous year, it is still high compared to the future year and predictions. The next year is the highest total in the range 2000-2032 with an astounding 818328 grams. 2002 was the absolute maximum in total. Since then it has been hovering around 100000 grams with spikes. Our forecast starts after 2012 when it is predicted to decrease even more with spikes as total mass decreases even more.
 
-## Manipulation to Dataset
+## Manipulations to Dataset
 The data set did not require any manipulations of the functions of the columns. However, some of the datatypes within the dataset needed to be adjusted. The “Year” datatype was converted from “Number” to “Date” datatype in order for our visualizations to be shown over time. Additionally, the “Reclat'' Geographical Role needed to be switched to “Latitude,” and the “Relong” Geographical Role needed to be switched to “Longitude.” 
 
 ## Tableau Workbook
